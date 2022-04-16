@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        position: fixed;
+        bottom: 0%;
+        color: aliceblue;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="container" id="feedbackPage">
+      <div class="star">
+        <div class="star-boundary">
+          <img src="images/icon-star.svg" alt="" />
+        </div>
+      </div>
+      <div class="heading">How did we do?</div>
+      <div class="text">
+        Please let us know how we did with your support request. All feedback is
+        appreciated to help us improve our offering!
+      </div>
+      <div class="rating-options">
+        <input type="button" value="1" class="rating" />
+        <input type="button" value="2" class="rating" />
+        <input type="button" value="3" class="rating" />
+        <input type="button" value="4" class="rating" />
+        <input type="button" value="5" class="rating" />
+      </div>
+      <button class="submit-btn">S U B M I T</button>
+    </div>
+
+    <div class="container hidden" id="thankYouPage">
+      <div class="illustration hidden">
+        <img src="images/illustration-thank-you.svg" alt="" />
+      </div>
+      <div class="user-selection hidden">
+        You selected <span id="user">4</span> out of 5
+      </div>
+      <div class="big-text hidden">Thank you!</div>
+      <div class="small-text hidden">
+        We appreciate you taking the time to give a rating. If you ever need
+        more support, don't hesitate to get in touch!
+      </div>
+    </div>
+
+    <footer class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Namit Gupta</a>.
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

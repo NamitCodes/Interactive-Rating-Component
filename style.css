@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+}
+
+.container{
+    background-color: rgba(30,37,47,255);
+    margin-inline: auto;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    width: min(90%, 425px);
+    
+    padding: 2em;
+
+    border-radius: 25px;
+}
+
+/* FEEDBACK PAGE CLASSES */
+.star-boundary{
+    display: inline;
+    background-color: rgba(38,47,56,255);
+    border-radius: 100vmax;
+    padding: 0.6em 0.6em;
+}
+.heading{
+    color: hsl(0, 0%, 100%);
+    margin: .85em auto;
+    margin-top: 2em;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1.5rem;
+}
+
+.text{
+    color: hsl(217, 12%, 63%);
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.rating-options{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* border: 2px solid salmon; */
+    margin-top: 1.5em;
+}
+
+.rating-options > input{
+    border: 2px solid rgba(30,37,47,255);
+    background-color: rgba(38,47,56,255);
+    padding: 1.1em 1.4em;    
+
+    font-family: 'Overpass', sans-serif;
+
+    border-radius: 50vh;
+    color: hsl(216, 12%, 54%);
+}
+
+.rating-options > input:hover{
+    background-color: rgba(124,136,152,255);
+    color: aliceblue;
+}
+
+.rating-options > input:focus{
+    background-color: hsl(25, 97%, 53%);
+    color: aliceblue;
+}
+
+.submit-btn{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    padding: .8em;
+    width: 100%;
+    border-radius: 25px;
+    color: aliceblue;
+    font-family: 'Overpass', sans-serif;
+    font-size: 1rem;
+    margin-top: 2em;
+}
+
+.submit-btn:active{
+    background-color: aliceblue;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+/* THANK YOU PAGE CLASSES */
+.illustration{
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.user-selection{
+    background-color: rgba(38,47,56,255);
+    border: 2px solid rgba(30,37,47,255);
+    border-radius: 15px;
+    display: inline;
+    padding: 0.3em 1em;
+    margin: 22%;
+    color: hsla(25, 97%, 53%, 0.794);
+    font-family: 'Overpass', sans-serif;
+    font-size: .9rem;
+
+}
+
+.big-text{
+    color: aliceblue;
+    font-family: 'Overpass', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.small-text{
+    font-family: 'Overpass', sans-serif;
+    color: hsl(216, 12%, 54%);
+    text-align: center;
+    margin-top: .5em;
+}
+
+
+
+/* JS CLASSES */
+.hidden{
+    display: none;
+}
