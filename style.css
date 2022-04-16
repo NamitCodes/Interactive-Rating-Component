@@ -103,12 +103,12 @@ body{
     background-color: rgba(38,47,56,255);
     border: 2px solid rgba(30,37,47,255);
     border-radius: 15px;
-    display: inline;
     padding: 0.3em 1em;
-    margin: 22%;
+    margin: auto;
     color: hsla(25, 97%, 53%, 0.794);
     font-family: 'Overpass', sans-serif;
     font-size: .9rem;
+    width: min(100%,181px);
 
 }
 
