@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [My Solution URL](https://namitcodes.github.io/Interactive-Rating-Component/)
 
 ## My process
 
